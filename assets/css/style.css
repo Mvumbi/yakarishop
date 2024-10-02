@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_hero{
+    background-color: #FAF3E9;
+    height: 560px;
+}
+
+.hero__image img{
+    width: 100%;
+}
+
+.text__title{
+    margin-left: 0.6rem;
+    margin-top: 2rem;
+    font-weight: bolder;
+}
+
+.text__title h1{
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+.text__title h2{
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text__link{
+    margin-top: 0.8rem;
+}
+
+.text__link a{
+    border: 1px solid;
+    border-radius: 1rem;
+    padding: 0.4rem;
+}
+
+@media screen and (min-width: 560px) {
+    .container_hero{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .text__title{
+        margin-left: 0.6rem;
+        margin-top: 5rem;
+        font-weight: bolder;
+    }
+    
+    .text__title h1{
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+
+    .articles__details{
+        display: flex;
+    }
+}
+
+/*
+
+@me
+
+.text__title{
+    margin-left: 0.6rem;
+    margin-top: 10rem;
+    font-weight: bolder;
+}
+
+.text__title h1{
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.text__title h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media screen and (max-width: 990px){
+    .container_hero{
+        flex-direction: column-reverse;
+        height: 700px;
+    }
+}
+
+*/
